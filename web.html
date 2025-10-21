@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Website Pertama Saya</title>
+
+  <!-- Internal CSS -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #e8f4ff; /* dulunya dari external css */
+    }
+    header {
+      background-color: #f2f2f2;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #333;
+      overflow: hidden;
+    }
+    nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #575757;
+    }
+    main {
+      display: flex;
+      padding: 20px;
+    }
+    section {
+      flex: 3;
+      padding: 10px;
+    }
+    aside {
+      flex: 1;
+      padding: 10px;
+      background-color: #f9f9f9;
+    }
+    footer {
+      background-color: #ddd;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    h1 {
+      color: #333; /* dulunya dari external css */
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>WEBSITE PERTAMA SAYA</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Berita</a>
+    <a href="#">Tentang Kami</a>
+  </nav>
+
+  <!-- Gambar latar -->
+  <div style="text-align:center;">
+    <img src="https://i.imgur.com/h0DGaBJ.jpg" alt="Gambar Latar" style="max-width: 100%;">
+  </div>
+
+  <main>
+    <section>
+      <h2 style="color: green;">Content</h2> <!-- Inline CSS -->
+      <p>Ini adalah konten utama dari website saya.</p>
+    </section>
+    <aside>
+      <h2>Sidebar</h2>
+      <p>Ini bagian sidebar.</p>
+    </aside>
+  </main>
+
+  <footer>
+    Copyright by Nama. Ahmad Farhan NIM: 12345678910
+  </footer>
+
+</body>
+</html>
